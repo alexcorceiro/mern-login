@@ -1,0 +1,33 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-champ1{
+flex: 2;
+padding: 10px 30px;
+}
+
+.nav-champ2{
+flex: 0.3;
+padding: 10px;
+}
+
+.nav-title{
+    color: white;
+}
+
+.nav-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(115, 113, 113);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.homepage{
+    background-color: rgb(186, 188, 189);
+    height: 91.2vh;
+    width: 100%;
+}
+
+.homepage-container{
+    display: flex;
+    justify-content: center;
+}
+
+.home-ul{
+    margin-top: 10%;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.home-li{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.home-img{
+    border-radius: 50%;
+    border: silver;
+}

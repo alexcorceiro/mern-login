@@ -1,0 +1,61 @@
+.register{
+    height: 110vh;
+    width: 100%;
+}
+
+.register-container{
+    display: flex;
+    justify-content: center;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:  25px 40px;
+}
+
+.register-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-footer-text{
+    padding: 10px;
+}
+
+.register-footer-subtext{
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+}
+
+.register-title{
+    display: flex;
+    justify-content: center;
+}
+
+.register-label{
+    padding: 10px;
+}
+
+.register-input{
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.register-btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(52, 52, 79);
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.register-footer-item{
+    cursor: pointer;
+}
